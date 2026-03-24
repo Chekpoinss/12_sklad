@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 4
+names: ['fire', 'flood', 'industrial', 'medical']
+
+roboflow:
+  workspace: subzerists-workspace
+  project: kakashka-vj51j
+  version: 1
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/subzerists-workspace/kakashka-vj51j/dataset/1
