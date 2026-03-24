@@ -18,3 +18,6 @@ It also supports a simple task-oriented inference pipeline for selecting a targe
 - YOLO11 training with Ultralytics
 - inference script for warehouse sign detection
 - support for 4 sign classes
+## Уставновка
+
+python solve_wherehaus_yolo.py --weights runs\detect\train\weights\best.pt --debug
